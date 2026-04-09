@@ -22,7 +22,8 @@ CSS3
 This project was created as a practice to strengthen my frontend development skills, especially in layout design, parallax effects, and styling techniques.
 
 🚀 What I Learned
--Implementing parallax scrolling using background-attachment: fixed
+
+-Implementing parallax scrolling using background-attachment
 
 -Structuring multi-section web pages
 
