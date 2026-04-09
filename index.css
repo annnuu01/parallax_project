@@ -1,0 +1,81 @@
+html,
+body{
+height : 100%;
+margin : 0;
+font-size: 16px;
+font-family: "Lato", sans-serif;
+font-weight: 400;
+line-height: 1.8em;
+color: #666;
+}
+.forest{
+    background-image: url(1st.jpg);
+    min-height: 100%;
+}
+.mountain{
+    background-image: url(2nd.jpg);
+    min-height: 400px;
+}
+.river{
+    background-image: url(3rd.jpg);
+    min-height: 400px;
+}
+.sky{
+    background-image: url(4th.jpg);
+    min-height: 600px;
+}
+.forest,
+.mountain,
+.river,
+.sky{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.background{
+    background: #313534;
+    color:white;
+    padding: 20px;
+}
+
+.about-forest{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.about-mountain{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #666;
+}
+
+.about-river{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.about-sky{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #666;
+}
